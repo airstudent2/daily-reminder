@@ -1,8 +1,9 @@
 name: Daily Reminder
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '30 8 * * *'
+    - cron: '38 8 * * *'
     - cron: '30 15 * * *'
 
 jobs:
